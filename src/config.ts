@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://muralidkt.com/",
+  author: "Murali Kotharamban",
+  profile: "https://muralidkt.com/about",
+  desc: "Writing on AI, cloud, and engineering. Platform Engineer building AI agent systems.",
+  title: "Murali Kotharamban",
+  ogImage: "og-image.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 8,
+  postPerPage: 10,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: false,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "Edit page",
+    url: "https://github.com/muralidkt/muralidkt.github.io/edit/main/src/content/blog/",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "en",
+  timezone: "Europe/Berlin",
+} as const;
