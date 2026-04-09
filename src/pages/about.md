@@ -3,12 +3,12 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hey, I'm Murali — Platform Engineer based in Munich, Germany.
+I'm Murali, a Platform Engineer based in Munich. Thirteen years in the industry, the last few spent deep in AI infrastructure.
 
-I've spent 13 years in the industry across IAM, cloud security, SRE, and platform engineering. These days I'm mostly building AI agent systems — LangGraph, Claude Agent SDK, AWS Bedrock, Strands Agents — and the infrastructure that keeps them running in production.
+I design and operate AI agent systems in production. Multi-agent orchestration, tool-use pipelines, retrieval infrastructure, the observability layer that keeps it all honest. I work across the full stack, from LangGraph and Claude Agent SDK down to the AWS bits underneath. Most of my energy ends up on the things teams deprioritize until something breaks. Fault tolerance. Latency characteristics. Making agent behavior actually predictable.
 
-I'm also on a mission to go deeper on ML fundamentals. Not just calling APIs, but actually understanding what's inside the black box. Writing about it here as I go.
+I've always learned by building. New domain, new problem, I go deep, get my hands dirty, and usually come out the other side with something shipped and a few opinions formed. That instinct has taken me across IAM, cloud security, SRE, and now AI systems. The certifications are a byproduct, not the point. But if you want a record, it's all on [Credly](https://www.credly.com/users/muralidkt).
 
-Originally from Kerala, India. M-Tech in Cyber Security. 10+ AWS certs. CKA, CKS.
+I write about what I'm building and what I'm learning here.
 
-Find me on [LinkedIn](https://www.linkedin.com/in/muralidkt/), [GitHub](https://github.com/muralidkt), or drop me a line at [muralidkt@gmail.com](mailto:muralidkt@gmail.com).
+[LinkedIn](https://www.linkedin.com/in/muralidkt/) · [GitHub](https://github.com/muralidkt) · [muralidkt@gmail.com](mailto:muralidkt@gmail.com)
