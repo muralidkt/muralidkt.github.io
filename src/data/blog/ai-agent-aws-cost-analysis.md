@@ -1,7 +1,7 @@
 ---
 title: "How I Use AI Agents to Analyse Costs Across Large AWS Environments"
 author: Murali Kotharamban
-pubDatetime: 2026-04-12T21:00:00.000Z
+pubDatetime: 2026-04-11T00:00:00.000Z
 slug: ai-agent-aws-cost-analysis
 featured: true
 draft: false
