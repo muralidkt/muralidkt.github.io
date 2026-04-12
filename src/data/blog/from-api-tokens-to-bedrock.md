@@ -15,13 +15,13 @@ tags:
 description: "I set up a personal AI agent and spent weeks fighting cost overruns, local model disappointments, and AWS throttling. Here's the real story — every wrong turn, every fix, and the multi-model architecture that finally worked."
 ---
 
-I run a personal AI agent on a server. Not a demo. Not a weekend project I spun up and forgot. An actual always-on agent that monitors my calendar, sends me daily AI briefings, helps me write code, manages my German learning, and handles tasks I throw at it via Telegram.
+I run a personal AI agent on a server. Not a demo. Not a weekend project I spun up and forgot. An actual always-on agent that monitors my calendar, sends me daily AI briefings, helps me write code, and handles tasks I throw at it via Telegram.
 
 Getting the model configuration right took weeks of trial, error, and real money. This is that story.
 
 ---
 
-## Phase 1: Vanilla Anthropic API — Clean Start, Harsh Reality
+## Phase 1: Anthropic API — Clean Start, Harsh Reality
 
 The obvious starting point: grab an Anthropic API key, point OpenClaw at it, done.
 
@@ -29,7 +29,7 @@ It worked. Claude Opus was impressive. The agent was capable and responsive. And
 
 Anthropic's API pricing on the direct plan is not cheap for always-on agent use. The problem isn't a single conversation — it's the architecture. An agent that runs heartbeat checks every 30 minutes, fires scheduled tasks, handles multi-turn conversations, and loads workspace context files into every session accumulates tokens fast. Really fast.
 
-The daily AI briefing cron alone — fetching news, summarizing, formatting, sending — was burning through my monthly budget in days.
+Daily scheduled tasks alone — each one spinning up a session, loading context, making multiple LLM calls — were burning through my monthly budget in days.
 
 I hit my quota. The API started rejecting requests. Time to rethink.
 
@@ -64,7 +64,7 @@ I used local models for sub-tasks and scheduled jobs — they handled those fine
 
 ## Phase 3: AWS Bedrock — The Right Tool for Each Job
 
-I already had AWS. I already had Bedrock access. The EU region had the models I needed. And because this is an AWS workload running on an EC2 instance with an IAM role, I get clean auth with no API keys floating around.
+That's when I decided to try AWS Bedrock hosted models. I already had an AWS account, Bedrock access was straightforward to enable, and the EU region had all the models I needed. The bonus: running on EC2 with an IAM role means clean auth — no API keys in config files, no credential rotation headaches.
 
 The insight that changed everything: **not every task needs the same model**.
 
