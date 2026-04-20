@@ -13,4 +13,4 @@ I've always learned by building. New domain, new problem, I go deep, get my hand
 
 I write about what I'm building and what I'm learning here.
 
-[LinkedIn](https://www.linkedin.com/in/muralidkt/) · [GitHub](https://github.com/muralidkt) · [muralidkt@gmail.com](mailto:muralidkt@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/muralidkt/) · [GitHub](https://github.com/muralidkt) · [X](https://x.com/muralidkt) · [Bluesky](https://bsky.app/profile/muralidkt.bsky.social) · [muralidkt@gmail.com](mailto:muralidkt@gmail.com)

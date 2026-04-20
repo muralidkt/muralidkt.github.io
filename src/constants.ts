@@ -2,6 +2,8 @@ import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
+import IconBrandX from "@/assets/icons/IconBrandX.svg";
+import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -29,6 +31,18 @@ export const SOCIALS: Social[] = [
     href: "mailto:muralidkt@gmail.com",
     linkTitle: `Send an email to ${SITE.author}`,
     icon: IconMail,
+  },
+  {
+    name: "X",
+    href: "https://x.com/muralidkt",
+    linkTitle: `${SITE.author} on X`,
+    icon: IconBrandX,
+  },
+  {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/muralidkt.bsky.social",
+    linkTitle: `${SITE.author} on Bluesky`,
+    icon: IconBluesky,
   },
 ] as const;
 
