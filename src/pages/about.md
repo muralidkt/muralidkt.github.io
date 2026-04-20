@@ -30,4 +30,4 @@ All badges verified on [Credly →](https://www.credly.com/users/muralidkt/badge
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/muralidkt/) · [GitHub](https://github.com/muralidkt) · [X](https://x.com/muralidkt) · [Bluesky](https://bsky.app/profile/muralidkt.bsky.social) · [muralidkt@gmail.com](mailto:muralidkt@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/muralidkt/) · [GitHub](https://github.com/muralidkt) · [X](https://x.com/muralidkt) · [muralidkt@gmail.com](mailto:muralidkt@gmail.com)
