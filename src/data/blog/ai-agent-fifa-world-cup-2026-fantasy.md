@@ -171,38 +171,42 @@ This captures ~95% of the value. The analysis is the hard part. Clicking 15 name
 ## Sample Output
 
 ```
-fantasy build --save --odds
+$ fantasy build --odds --ratings
 
-╭─────────────────────────────────────────────────────────╮
-│  MATCHDAY 1 — Optimal Squad                             │
-│  Budget: $99.8M / $100.0M                               │
-├─────────────────────────────────────────────────────────┤
-│  Starting XI (4-3-3)               xPts    vs           │
-│  ─────────────────────────────────────────────────       │
-│  GK  Donnarumma (ITA)              4.8     ALB          │
-│  DEF Saliba (FRA)                  5.2     CAN          │
-│  DEF Dias (POR)                    4.9     QAT          │
-│  DEF Kim Min-jae (KOR)             4.6     MEX          │
-│  DEF Araujo (URU)                  4.4     MAR          │
-│  MID Bellingham (ENG)              6.1     IRN          │
-│  MID Pedri (ESP)                   5.8     ECU          │
-│  MID De Bruyne (BEL)              5.6     ISR          │
-│  FWD Mbappé (FRA) ©               7.3     CAN          │
-│  FWD Haaland (NOR)                 6.9     ARG          │
-│  FWD Vinicius Jr (BRA)             6.7     NZL          │
-│                                                         │
-│  Bench                                                  │
-│  GK  Dibu Martínez (ARG)          3.9     NOR          │
-│  DEF Alexander-Arnold (ENG)        4.1     IRN          │
-│  MID Valverde (URU)                4.3     MAR          │
-│  FWD Álvarez (ARG)                 4.0     NOR          │
-│                                                         │
-│  Captain: Mbappé (7.3 xPts, 0.95 start prob)           │
-│  Vice: Haaland (6.9 xPts, 0.92 start prob)             │
-╰─────────────────────────────────────────────────────────╯
+strength: Polymarket implied 'reach Quarterfinals' odds
+SoFIFA ratings: 21 loaded, matched 21 players
+projection overrides: 3 loaded from data/overrides.yaml
+╭──────────────────────────────────────────────────────────────────────────────────╮
+│ Recommended squad · Matchday 1 · formation 3-4-3                                 │
+│ cost $99.9m · projected 93.9 pts (with captain)                                  │
+│ Deadline: 2026-06-11 20:00:00+01:00 · enter this team at play.fifa.com/fantasy   │
+╰──────────────────────────────────────────────────────────────────────────────────╯
+Starting XI
+┏━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┳━━━━━┓
+┃ Pos ┃ Player            ┃ Team      ┃ vs           ┃ Price  ┃ xPts ┃ Start ┃     ┃
+┡━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━╇━━━━━┩
+│ GK  │ Emiliano Martínez │ Argentina │ Algeria      │ $5.0m  │ 5.49 │ 100%  │     │
+│ DEF │ Antonio Rüdiger   │ Germany   │ Curaçao      │ $5.5m  │ 7.89 │ 100%  │     │
+│ DEF │ Joshua Kimmich    │ Germany   │ Curaçao      │ $5.5m  │ 7.58 │ 88%   │     │
+│ DEF │ Johan Vásquez     │ Mexico    │ South Africa │ $4.7m  │ 6.65 │ 100%  │     │
+│ MID │ Pedri             │ Spain     │ Cabo Verde   │ $8.1m  │ 8.85 │ 92%   │ (V) │
+│ MID │ Lamine Yamal      │ Spain     │ Cabo Verde   │ $10.0m │ 8.54 │ 100%  │     │
+│ MID │ Florian Wirtz     │ Germany   │ Curaçao      │ $7.5m  │ 8.12 │ 92%   │     │
+│ MID │ Enzo Fernández    │ Argentina │ Algeria      │ $7.5m  │ 6.93 │ 100%  │     │
+│ FWD │ Lionel Messi      │ Argentina │ Algeria      │ $10.0m │ 8.75 │ 100%  │ (C) │
+│ FWD │ Ferran Torres     │ Spain     │ Cabo Verde   │ $7.8m  │ 8.74 │ 72%   │     │
+│ FWD │ Raúl Jiménez      │ Mexico    │ South Africa │ $7.0m  │ 7.59 │ 100%  │     │
+└─────┴───────────────────┴───────────┴──────────────┴────────┴──────┴───────┴─────┘
+Bench
+┏━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━┳━━━━━━━┳━━┓
+┃ Pos ┃ Player          ┃ Team     ┃ vs           ┃ Price ┃ xPts ┃ Start ┃  ┃
+┡━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━╇━━━━━━━╇━━┩
+│ GK  │ Guillermo Ochoa │ Mexico   │ South Africa │ $4.2m │ 5.38 │ 100%  │  │
+│ DEF │ Thomas Meunier  │ Belgium  │ Egypt        │ $4.8m │ 6.42 │ 100%  │  │
+│ DEF │ Daniel Muñoz    │ Colombia │ Uzbekistan   │ $4.6m │ 6.34 │ 100%  │  │
+│ MID │ Martin Ødegaard │ Norway   │ Iraq         │ $7.7m │ 6.46 │ 100%  │  │
+└─────┴─────────────────┴──────────┴──────────────┴───────┴──────┴───────┴──┘
 ```
-
-*(Sample output — actual projections depend on live data at the time of the deadline.)*
 
 ## What I Learned Building This
 
