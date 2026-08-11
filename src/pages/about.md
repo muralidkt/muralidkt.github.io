@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Murali, a Platform Engineer based in Munich — focused on Cloud, Cloud-Native, AI & MLOps. Thirteen years in the industry, the last few spent designing and building scalable, secure, and automated cloud platforms.
+I'm Murali, a Senior AI Platform Engineer based in Munich — focused on Cloud, Cloud-Native, AI & MLOps. 10+ years in the industry, the last few spent designing and building scalable, secure, and automated cloud platforms.
 
 Right now I'm deep in AI agent systems: building scalable, resilient multi-agent architectures using LangGraph, Claude Agent SDK, and AWS Bedrock. Multi-agent orchestration, tool-use pipelines, retrieval infrastructure, the observability layer that keeps it all honest. Most of my energy ends up on the things teams deprioritize until something breaks — fault tolerance, latency characteristics, making agent behavior actually predictable.
 
