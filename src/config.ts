@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://muralidkt.com/",
   author: "Murali Kotharamban",
   profile: "https://muralidkt.com/about",
-  desc: "Writing on AI, cloud, and engineering. Platform Engineer building AI agent systems.",
+  desc: "Writing on AI, cloud, and engineering. Senior AI Platform Engineer building production agentic AI systems.",
   title: "Murali Kotharamban",
   ogImage: "og-image.jpg",
   lightAndDarkMode: true,
