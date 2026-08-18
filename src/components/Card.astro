@@ -28,6 +28,13 @@ const { title, description, ...props } = data;
       {title}
     </Heading>
   </a>
+  {
+    import.meta.env.DEV && data.draft && (
+      <span class="bg-skin-card text-skin-base ml-2 rounded px-2 py-1 text-xs font-semibold tracking-wide uppercase">
+        Draft preview
+      </span>
+    )
+  }
   <Datetime {...props} />
   <p>{description}</p>
 </li>
