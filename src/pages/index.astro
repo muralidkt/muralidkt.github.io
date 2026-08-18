@@ -23,11 +23,11 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <div class="flex flex-col sm:flex-row items-start gap-6 mb-4">
+      <div class="mb-4 flex flex-col items-start gap-6 sm:flex-row">
         <img
           src="/avatar.jpg"
           alt="Murali Kotharamban"
-          class="w-24 h-24 rounded-full object-cover flex-shrink-0"
+          class="h-24 w-24 flex-shrink-0 rounded-full object-cover"
         />
         <div class="flex-1">
           <div class="flex items-center gap-2">
@@ -50,13 +50,17 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
             </a>
           </div>
           <p>
-            Senior AI Platform Engineer building production agentic AI systems — multi-agent
-            orchestration with the Claude Agent SDK and LangGraph, MCP servers, agent evaluation
-            pipelines with LLM-as-judge quality gates, and multi-provider model routing across
-            AWS Bedrock and Google Vertex AI built for EU data residency.
-            10+ years across cloud, security, and infrastructure — so the platform underneath the
-            agents (Terraform, CI/CD, secrets, observability) gets built right too.
-            Based in Munich. Writing about what I'm learning and building.
+            I'm a Senior AI Platform Engineer, focused on building agentic AI
+            systems that hold up in production. My work spans multi-agent
+            orchestration, secure runtimes, memory and context management, RAG,
+            MCP-based tools, observability, evaluation pipelines, and model
+            routing across cloud platforms (AWS Bedrock, GCP Vertex AI etc),
+            with EU data residency designed in. I draw on more than a decade of
+            experience in cloud, security, and infrastructure to take AI systems
+            from early prototypes to secure, resilient, and cost-aware
+            platforms. I'm continuing to deepen my expertise across AI
+            engineering and AI platform engineering, and I write here about what
+            I'm building and learning along the way.
           </p>
           {
             SOCIALS.length > 0 && (

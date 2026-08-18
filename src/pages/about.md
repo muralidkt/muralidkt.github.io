@@ -3,15 +3,27 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Murali, a Senior AI Platform Engineer based in Munich — focused on Cloud, Cloud-Native, AI & MLOps. 10+ years in the industry, the last few spent designing and building scalable, secure, and automated cloud platforms.
+I'm Murali, a Senior AI Platform Engineer focused on building agentic AI systems that hold up in production — reliable, observable, secure, and cost-aware.
 
-Right now I'm deep in AI agent systems: building scalable, resilient multi-agent architectures using LangGraph, Claude Agent SDK, and AWS Bedrock. Multi-agent orchestration, tool-use pipelines, retrieval infrastructure, the observability layer that keeps it all honest. Most of my energy ends up on the things teams deprioritize until something breaks — fault tolerance, latency characteristics, making agent behavior actually predictable.
+My work sits at the intersection of AI engineering and platform engineering. I work across the full lifecycle of an agent system: how agents reason and collaborate, how they use tools and retrieve context, where they run, how their quality is measured, and how the platform is operated safely at scale.
 
-I work across the full stack, from IaC and CI/CD up through applied AI/ML workloads. My background spans AWS, Azure, and GCP, with a deep focus on bridging cloud infrastructure with modern AI — DevOps, MLOps, security, and automation all in the mix.
+## What I'm working on
 
-I've always learned by building. New domain, new problem, I go deep, get my hands dirty, and usually come out the other side with something shipped and a few opinions formed. That instinct has taken me across IAM, cloud security, SRE, and now AI systems.
+In my current role, I build AI platforms that combine large language models with mathematical optimization and operations research. The agent layer includes multi-agent orchestration with the Claude Agent SDK and LangGraph, specialized agents, memory and context management, retrieval-augmented generation (RAG), and tool integrations exposed through MCP servers built with FastMCP.
 
-I write about what I'm building and what I'm learning here.
+The runtime layer spans FastAPI services, AWS ECS and Fargate, GCP Cloud Run, Cloudflare, and isolated Modal sandboxes. I build provider-agnostic model routing across Amazon Bedrock and Google Vertex AI so workloads can use the right model and region while meeting EU data-residency and GDPR requirements.
+
+Getting an agent to produce a good answer once is only the beginning. I build evaluation pipelines around golden datasets, synthetic test variants, quantitative thresholds, and LLM-as-judge scoring through Claude on Amazon Bedrock. These evaluations run as CI/CD quality gates in GitHub Actions, making regressions visible before they reach production. On the operational side, I work on agent-level observability, application monitoring, token and latency tracking, and per-tenant usage and cost attribution using services such as CloudWatch, DynamoDB, Athena, and QuickSight.
+
+Underneath the agents, I design and automate the platform with Terraform, GitHub Actions, and environment-specific deployment pipelines. That includes secure runtimes, blue-green deployments, identity and tenant-scoped authorization with Amazon Cognito and JWT, secrets management, monitoring, and the AWS and GCP infrastructure needed to run the systems reliably.
+
+## The experience behind the platform
+
+I bring more than a decade of experience across cloud infrastructure, security, SRE, and platform engineering. Before focusing on agentic AI, I built internal RAG and natural-language analytics applications with Amazon Bedrock, FastAPI services on AWS, reusable Terraform modules, data platforms with Amazon Redshift and DMS, and production observability with Datadog.
+
+Earlier in my career, I worked across AWS, GCP, and Azure on Kubernetes and container platforms including EKS, GKE, and ECS; production secrets management with HashiCorp Vault; IAM and federated identity; DevSecOps automation; incident response; and cloud security. That background shapes how I approach AI systems today: the model matters, but so do the runtime, permissions, failure modes, delivery pipeline, telemetry, and cost model around it.
+
+I'm continuing to deepen my expertise across AI engineering and AI platform engineering. I learn by building, and I write here about the systems I'm working on, the problems I run into, and what I learn while solving them.
 
 ---
 
