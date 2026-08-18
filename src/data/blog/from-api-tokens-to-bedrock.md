@@ -12,6 +12,9 @@ tags:
   - LLM
   - Platform Engineering
   - GenAI
+  - Agents
+  - LLM Gateways
+  - Model Routing
 description: "I set up a personal AI agent and spent weeks fighting cost overruns, local model disappointments, and AWS throttling. Here's the real story — every wrong turn, every fix, and the multi-model architecture that finally worked."
 ---
 

@@ -13,6 +13,8 @@ tags:
   - Observability
   - DevOps
   - Agents
+  - Multi-Agent Orchestration
+  - Agent Runtime
 description: "An agentic app grew out of an MVP with components scattered across five clouds, all provisioned by hand. Here's how I rearchitected it — Terraform first, agent-level observability second, consolidation last — and what it taught me about building a harness for AI agents."
 ---
 

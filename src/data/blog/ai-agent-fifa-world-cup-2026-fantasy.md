@@ -12,6 +12,7 @@ tags:
   - LangGraph
   - Operations Research
   - Side Project
+  - Agents
 description: "The World Cup starts next week. 736 players. 48 teams. 8 matchdays. So I built an AI agent that uses Poisson models, integer linear programming, and a bounded Claude layer to pick the mathematically optimal fantasy squad."
 ---
 

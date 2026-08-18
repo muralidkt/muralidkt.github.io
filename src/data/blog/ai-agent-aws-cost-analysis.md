@@ -12,6 +12,7 @@ tags:
   - GenAI
   - Platform Engineering
   - FinOps
+  - Agents
 description: "Managing AWS costs across dozens of accounts is painful. Here's how I use AI agent skills to trace billing spikes to root cause, find waste, and recover thousands per month — without clicking through the console."
 ---
 
