@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Murali, a Senior AI Platform Engineer focused on building agentic AI systems that hold up in production — reliable, observable, secure, and cost-aware.
+I'm Murali, a senior engineer working across AI engineering and platform engineering — I build agentic AI systems and the production platforms that run them: reliable, observable, secure, and cost-aware.
 
 My work sits at the intersection of AI engineering and platform engineering. I work across the full lifecycle of an agent system: how agents reason and collaborate, how they use tools and retrieve context, where they run, how their quality is measured, and how the platform is operated safely at scale.
 
